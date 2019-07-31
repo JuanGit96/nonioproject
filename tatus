@@ -1,0 +1,18 @@
+[1mdiff --git a/app/Http/Controllers/FinancialController.php b/app/Http/Controllers/FinancialController.php[m
+[1mindex 20666a1..ee05b6d 100644[m
+[1m--- a/app/Http/Controllers/FinancialController.php[m
+[1m+++ b/app/Http/Controllers/FinancialController.php[m
+[36m@@ -79,10 +79,10 @@[m [mclass FinancialController extends Controller[m
+                     $aplication = Application::join('indebtedness_capacities','indebtedness_capacities.id','applications.indebtedness_capacities_id')[m
+                         ->where('indebtedness_capacities.simulation_id',$simulation[$i]->simulation_id)->count();[m
+ [m
+[31m-                    if ($aplication==0) {[m
+[32m+[m[32m                   // if ($aplication==0) {[m
+                         # code...[m
+[31m-                        $simulacionSinAplicar= 1;[m
+[31m-                    }[m
+[32m+[m[32m                     //   $simulacionSinAplicar= 1;[m
+[32m+[m[32m                    //}[m
+                 }[m
+                 if ($simulacionSinAplicar>=1) {[m
+                     return view('sorry')->with('btn',false)->with('info',"Segun nuestro registros empezaste una simulacion y no solicitaste ningun banco, inicia sesion y termina el proceso");[m

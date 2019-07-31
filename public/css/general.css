@@ -1,0 +1,950 @@
+@font-face {
+    font-family: bold;
+    src: url("../fonts/Montserrat-Bold.otf");
+}
+@font-face {
+    font-family: medium;
+    src: url("../fonts/Montserrat-Medium.otf");
+}
+@font-face {
+    font-family:'light';
+    src: url("../fonts/Montserrat-Light.otf");
+}
+/* Estilo header */
+
+
+.formulario .invalid-feedback {
+    color: #ffd05b;
+}
+.navbar-none{
+    height: 25px;
+    background-color: #027780;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.bg-light {
+    background-color: #027780  !important; 
+        font-size: 12px;
+}
+.navbar-light .navbar-nav .active>.nav-link {
+    color:white;
+    font-family: 'medium';
+
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
+.user-header .bg-menu {
+    background-color: #d2dcdd  !important; 
+}
+
+.bg-menu {
+    background-color: #fff  !important; 
+}
+.navbar-menu .navbar-nav .active>.nav-link {
+    color:#027780;
+    font-family: 'medium';
+    
+}
+.navbar-menu .navbar-brand{
+    color: #027780;
+}
+.btn-user{
+    background-color: transparent;
+}
+.btn-user:focus {
+    box-shadow: none !important;
+}
+.header-user  i{
+    color: white;
+}
+.header-user  span{
+    color: white;
+}
+
+.header-user  .dropdown-item{
+    color: white;
+}
+.header-user  .dropdown-item:hover{
+    color: #027780;
+}
+
+.header-user .dropdown-menu{
+    background-color: #027780;
+    top: 35px;
+}
+/* Estilo footer */
+.footer{
+    background-color: #454948;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'light';
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: white;
+}
+.lineas-footer{
+    border-right: 1px solid;
+}
+#navbar_horizontal .nav-item .nav-link{
+    border-right: 1.2px solid #007bff;
+}
+
+
+/* Banner welcome */
+
+.bannerwelcome .carousel-caption {
+    left: 6%;
+    right: 48%;
+    top: 114px;
+}
+.bannerwelcome{ 
+    width:100%; 
+    height:100vh;
+    padding-top: 86px;
+}
+.bannerwelcome .banner{
+        height: 86vh;
+}
+.bannerwelcome h1{
+    line-height: 1.5;
+    font-family: 'bold';
+    font-size: 28px;
+
+}
+.nonioh1{
+    font-size: 50px !important;
+
+}
+.bannerwelcome .text-banner{
+    position: absolute;
+    bottom: 174px;
+    left: 611px;
+}
+.text-bannerp{
+    font-size: 23px;
+}
+/* .bannerwelcome  .carousel-control-prev, .carousel-control-next {
+    width: 5%;
+} */
+
+
+
+.btn-carousel{
+    color: #fff;
+    background-color: #0d3038;
+    border-color: #62dcee;
+    font-size: 22px;
+    font-family: 'medium';
+    padding-right: 45px;
+    padding-left: 45px;
+}
+
+.btn-carousel:hover{
+    color: #fff;
+    background-color: #082b33;
+}
+footer .aliados{
+    height: 74px;
+    border-top-color: #027780;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: none;
+    border-bottom-style: none;
+}
+footer .aliados div{
+    border-right-style: solid;
+    border-right-color: #027780;
+    color: #027780;
+    font-family: 'bold';
+    text-align: center ;
+}
+.slide-aliados{
+    border-bottom-color: #027780;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.div-aliados {
+    border-right-style: solid;
+    border-right-color: #027780;
+    border-right-width: 1px;
+    color: #027780;
+    font-family: 'bold';
+    font-size: 19px;
+    
+}
+.aliados p{
+        font-size: 22px;
+    }
+.scroll-btn{
+    position: absolute;
+    top: 495px;
+    right: 0px;
+    left: 0px;
+}
+/* Como funciona */
+.howworks h3{
+        color: #00767f;
+        font-family: 'bold';
+}
+/* Quienes somos */
+.whoare{
+        margin-top: 273px;
+        background-color: #00767f;
+        color: #fff;
+}
+.whoare h3{
+        color: #ffd05b;
+        font-family: 'bold';
+}
+.whoare p{
+    font-size: 15px;
+    font-family: 'medium';
+}
+
+/* how do */
+.howdo h5{
+    font-family: 'bold';
+    color: #00767f;
+    
+}
+.howdo h3{
+    color: #00767f;
+    font-family: 'medium';
+ 
+}
+.punteado{ 
+  border-style: dotted; 
+  	border-width: 2px; 
+  	border-color: black; 
+    font-size: 10pt; 
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.punteado input{
+    cursor: pointer;
+}
+
+/* seccion why */
+
+.why{
+    background-color: #007662;
+}
+.why h2{
+    color: #fff;
+    font-weight: bold;
+}
+.why img{
+    width: 224px;
+}
+.why .imgwhy{
+    position: relative;
+}
+
+.why .imgwhy h5{
+    color: #3e978a;
+    font-weight: bold;
+}
+.why .imgwhy div{
+    position: absolute;
+    margin-right: 65px;
+    margin-left: 51px;
+    bottom: 17px;
+    font-size: 12px;
+}
+
+/* Seccion del formulario */
+.infocolumn{
+    background-color: #027780;
+    font-family: 'medium';
+    
+        
+}
+.datepicker table tr td span {
+    color: #027780;
+}
+
+.formulario{
+    color: white;
+    font-weight: bold;
+    
+}
+.formcont .btn-carousel{
+    font-size: 14px;
+}
+.formcont label{
+        font-weight: bold;
+        color: black;
+        font-size: 14px;
+    }
+
+.accepted h1{
+    font-weight: bold;
+    color: #007662;
+    font-family: 'bold';
+}
+.accepted p{
+    font-size: 18px;
+    font-family: 'medium';
+    
+    
+}
+.accepted .price{
+    color: #027780;
+    font-size: 25px;
+    font-weight: bold;
+}
+.text-c{
+    color: #082b33;
+    font-weight: bold;
+}
+
+.success h1{
+    color: #007662;
+    font-weight: bold;
+}
+.btn-form{
+    background-color: #ffd05b;
+    color: black;
+    padding-right: 49px;
+    padding-left: 44px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+/* Felicitaciones formulario*/
+.formrow{
+    background-color: #027780;
+    color: #fff;
+    font-family: 'bold';
+}
+.formsuccess{
+    color: #027780;
+    font-weight: bold;
+    font-family: 'medium';
+}
+.formsuccess .form-control{
+        border: 1px solid #000000;
+}
+
+.btn-accepted{
+    background-color: #027780;
+    color: #fff;
+    padding-right: 23px;
+    padding-left: 23px;
+    font-size: 20px;
+    font-family: 'medium';
+
+}
+
+/* Animacion de cards */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+/* front pane, placed above back */
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+    transform: rotateY(0deg);
+    
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+    background-color: #00767f;
+    color: white;
+    height: 265px;
+}
+.back h5{
+    font-size: 18px;
+    font-family: 'medium';
+    
+}
+.front h4{
+    font-size: 18px;
+    font-family: 'medium';
+    }
+
+.anuncio-fijo {
+    position: fixed;
+    top: 122px;
+    right: 0;
+    z-index: 1000;
+    background-image: url("../img/fondoBoton.png");
+    color: white;
+    padding: 6px 0px;
+    text-align: center;
+    line-height: 12px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 134px;
+}
+.anuncio-fijo p{
+    font-size: 13px;
+    margin-left: 18px;
+    color: #027780;
+}
+
+.anuncio-fijo img{
+    margin-left: 14px;
+}
+
+/* market place */
+.text-bannerm{
+    position: relative;
+}
+.text-bannerm img{
+    height: 20vh;
+}
+.text-bannerm .title {
+    position: absolute;
+    top: 50%;
+    left: 24%;
+    transform: translate(-2%, -50%);
+}
+.text-bannerm .title h5{
+    font-family:"bold";
+}
+
+/* Formulario market */
+
+.form-market h3{
+    color: #007662;
+    font-weight: bold;
+    font-family: 'bold';
+}
+.form-market {
+    color: #00767f;
+    font-weight: bold;
+    font-family: 'medium';
+}
+
+.form-market .form-control{
+        border: 1px solid #141516;
+}
+.form-market   p{
+        font-size: 12px;
+}
+
+.form-market   span{
+    color: #00767f;
+}
+
+/* tabla */
+
+.head-table{
+    color: #fff;
+    background-color: #027780;
+    font-family: 'medium';
+}
+.titulotable{
+    background-color: #ffd05b ;
+    color: #000000;
+    font-family: 'Rockwell';
+}
+
+.titulotable span{
+    color: black;
+}
+.rowtable {
+    color: #027780;
+    font-family: 'medium';
+}
+.rowtable .btn-accepted{
+    background-color: #027780;
+    color: #fff;
+    padding-right: 46px;
+    padding-left: 46px;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.rowtable img{
+    position: relative;
+}
+
+.rowtable h1{
+    position: absolute;
+}
+.contenido h5{
+    color: #027780;
+    font-family: bold;
+}
+.contenido p{
+    font-family: medium;
+}
+.datepicker td, .datepicker th {
+    width: 33px;
+}
+@media (max-width: 780px) {
+    .bannerwelcome {
+    
+        padding-top: 38px;
+    }
+   .bannerwelcome .text-banner {
+        position: absolute;
+        bottom: 15px;
+        left: 0px;
+        font-weight: bold;
+        color: black !important;
+        text-align: center !important;
+    }
+    .bannerwelcome .banner {
+        height: 50vh;
+    }
+    .bannerwelcome h1 {
+        font-size: 21px;
+    }
+    .text-bannerp {
+        font-size: 16px;
+    }
+    .btn-carousel {
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .bannerwelcome {
+        width: 100%;
+        height: 48vh;
+    }
+    .whoare{
+        margin-top: 50px;
+        background-color: #00767f;
+        color: #fff;
+    }
+    
+    
+.formcont label {
+    font-size: 14px;
+}
+     
+  
+}
+
+@media(min-width: 770px) and (max-width: 1280px){
+    
+    .navbar-menu .navbar-nav .active>.nav-link {
+        font-size: 11px;
+    }
+    
+    .div-aliados {
+        font-size: 15px;
+    }
+    .aliados p {
+        font-size: 18px;
+    }
+    .front h4 {
+        font-size: 13px;
+    }
+    .back h5 {
+        font-size: 14px;
+    }
+    .back {
+        height: 214px;
+    }
+    .whoare p {
+        font-size: 13px;
+    }
+    .howdo h5 {
+        font-size: 15px;
+    }
+    .howdo p {
+        font-size: 15px;
+    }
+    .formulario .formcont label {
+        font-size: 11px;
+    }
+    .formulario .form-control {
+        font-size: 13px;
+    }           
+    .formulario .custom-select{
+        height: 34px;
+    }
+    .formulario .input-group-prepend{
+        height: 34px;
+    }
+    
+}
+
+@media (min-width: 1430px) {
+    .back{
+        margin-right: 41px!important;
+        margin-left: 44px!important;
+        padding-top: 60px!important;
+    }
+    .backimg{
+        padding-top: 32px!important;
+    }
+    .fronttitle{
+    padding-bottom: 20px!important;
+    }
+    .fronttitledos{
+    padding-bottom: 1px!important;
+    }
+    .bannerwelcome .banner{
+        height: 89vh;
+    }
+    .div-aliados p{
+        font-size: 24px;
+    }
+    .scroll-btn{
+        position: absolute;
+        top: 634px;
+        right: 0px;
+        left: 0px;
+    }
+    
+     
+    .text-bannerm .title {
+    bottom: 232px;
+    margin-left: 202px;
+    } 
+    .bannerwelcome .text-banner {
+        position: absolute;
+        bottom: 261px;
+        left: 698px;
+    } 
+    .nonioh1{
+        font-size: 70px !important;
+    }
+    .bannerwelcome h1 {
+        font-size: 36px;
+    }
+    .text-bannerp {
+    font-size: 26px;
+}
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border: 0 !important;
+    margin-top: 5px;
+}
+
+.slider_button{
+    height: 25px;
+    padding: 0px 8px !important;
+    
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.btn-circle {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    padding: 0px 0;
+    font-size: 9px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+#solicitar_modal .modal-header{
+    padding-bottom: 5px;
+    padding-top: 3px;
+    background-color: #027780;
+}
+
+#solicitar_modal .modal-header .close {
+    color: #fff;
+}
+#vermas_modal span{
+    color: #027780;
+}
+
+.formulario span{
+    color: black;
+}
+
+
+.text-little{
+    font-size: 10px;
+}
+/* Login*/
+
+.crear-cuenta{
+    border-top-color: #027780;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-style: none;
+    color: #027780;
+}
+.btn-login{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #007662;
+    color: white;
+}
+#Modal_login .modal-header{
+    border-bottom:none;
+}
+#Modal_login span{
+    color: #007662;
+}
+
+/* Dashboard */
+
+.div-filtro{
+    background-color: dodgerblue;
+    color: white;
+}
+.div-search{
+    background-color: #d2dcdd  !important; 
+}
+
+.solititud-list{
+    border-radius: 62px 62px 62px 62px;
+-moz-border-radius: 62px 62px 62px 62px;
+-webkit-border-radius: 62px 62px 62px 62px;
+border: 0px solid #000000;
+background-color: gainsboro;
+}
+
+.dashboard-left .btn-accepted{
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 62px 62px 62px 62px;
+    -moz-border-radius: 62px 62px 62px 62px;
+    -webkit-border-radius: 62px 62px 62px 62px;
+
+}
+.dashboard-right .btn-accepted{
+    padding-right: 50px;
+    padding-left: 50px;
+    border-radius: 62px 62px 62px 62px;
+    -moz-border-radius: 62px 62px 62px 62px;
+    -webkit-border-radius: 62px 62px 62px 62px;
+}
+
+#modal_infoSolicitud .btn-accepted{
+    font-size: 15px;
+}
+#modal_infoSolicitud .btn-accepted:hover{
+    color: white;
+}
+
+.row-btn .btn-accepted{
+    font-size: 14px;
+}
+
+.alerta-solicitud{
+    color: red;
+}
+#modal_infoSolicitud span{
+    color: #007662;
+}
+
+.dashboard-left .check-normal{
+    width: 20px;
+    height:20px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: 0px;
+    *overflow: hidden;
+}
+
+.formulario .custom-file {
+    width: 65%;
+}
+
+/* Contacto */
+
+.contact h1 {
+    color: #007662;
+}
+
+.contact h5{
+    color: #007662;
+}
+.vertical-menu {
+        border-top: solid 1px #00767f;
+}
+
+.vertical-menu a {
+    color: #00767f;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+.vertical-menu a.active {
+    background-color: #f1ce64; /* Add a green color to the "active/current" link */
+}
+
+.vertical-menu a:hover {
+    background-color: #f1ce64;
+}
+
+
+.content-right{
+        background-color: #9dbdba;
+}
+#main{
+        min-height: 100vh;
+    font-family: 'bold';
+
+}
+
+.bg-admin {
+    background-color: #f1ce64 !important;
+}
+#main .card {
+    border: 0px;
+}
+.list-group{
+    max-height: 405px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+    cursor: pointer;
+}
+.editar-costo .form-control{
+    line-height: 1;
+}
+.body-admin{
+    font-size: 12px;
+}
+
+.admin-nav .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    color: #027780;
+    background-color: #f1ce64;
+    border-color: #f1ce64 #f1ce64 #f1ce64;
+}
+.admin-nav a{
+    color: black;
+}
+
+.admin-nav .nav-tabs {
+    border-bottom: 1px solid #027780;
+}
+.admin-nav .nav-tabs .nav-link:hover {
+    border-color: #027780 #027780 #027780;
+}
+.patrimonio-form .form-control{
+        height: 37px;
+}
+
+.patrimonio-form .input-group-text{
+        height: 37px;
+}
+#modal_detalle .modal-content {
+    width: 173%;
+    right: 123px;
+    
+}
+
+@media(min-width: 1620px) and (max-width: 2560px) {
+    
+    .scroll-btn{
+        position: absolute;
+        top: 825px;
+        right: 0px;
+        left: 0px;
+    }
+    .bannerwelcome .banner {
+        height: 91vh;
+    }
+    .bannerwelcome .text-banner {
+        position: absolute;
+        bottom: 445px;
+    }
+}
+
+.solicitudes{
+        border-bottom: 2px solid #027780;
+}
+.bannersm{
+        display: none;
+    }
+@media only screen and (max-width: 600px) {
+    .bannersm{
+        display: block;
+    }
+    .bannerxl{
+        display: none;
+    }
+}
+
+#filter-table {
+	background-color: transparent!important;
+}
+
+#filter-table .column_filter.form-control {
+	min-width: 120px;
+}
+
+#filter-table .column_filter_historial.form-control {
+	min-width: 120px;
+}
+
+#filter-table td {
+	padding-right: 20px;
+}
+
+#filter-table option[value=""] {
+	color: #aaa;
+}
+
+
